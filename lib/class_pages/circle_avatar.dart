@@ -55,14 +55,17 @@ class LiveAvatar extends StatelessWidget {
         child: Container(
           height: 66,
           width: 66,
-          padding: const EdgeInsets.all(5),
+          padding: const EdgeInsets.all(2),
           child: CircleAvatar(
             backgroundImage: NetworkImage(aovivoLogo),
             child: Align(
               alignment: Alignment.bottomCenter,
               child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(2),
+                  color: Colors.pink,
+                ),
                 padding: EdgeInsets.all(2),
-                color: Colors.pink,
                 child: Text(
                   "AO VIVO",
                   style: TextStyle(
