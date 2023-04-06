@@ -13,25 +13,23 @@ class CircleAvatarPage extends StatelessWidget {
       Container(
         height: 66,
         width: 66,
-        child: Align(
-            alignment: Alignment.bottomCenter,
-            child: Text(
-              nomeUsuario,
-              style: TextStyle(color: Colors.white),
-            )),
       ),
-      Container(
-        height: 66,
-        width: 66,
-      ),
-      Container(
-        decoration: kCircleDecoration,
-        height: 66,
-        width: 66,
-        padding: const EdgeInsets.all(2),
-        child: CircleAvatar(
-          backgroundImage: NetworkImage(imagemURI),
-        ),
+      Column(
+        children: [
+          Container(
+            decoration: kCircleDecoration,
+            height: 66,
+            width: 66,
+            padding: const EdgeInsets.all(2),
+            child: CircleAvatar(
+              backgroundImage: NetworkImage(imagemURI),
+            ),
+          ),
+          Text(
+            nomeUsuario,
+            style: TextStyle(color: Colors.white, fontSize: 10),
+          ),
+        ],
       ),
     ]);
   }
