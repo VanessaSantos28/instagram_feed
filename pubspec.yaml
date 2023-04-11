@@ -64,6 +64,15 @@ flutter:
     - assets/images/logo.png
     - assets/images/coracao.png
     - assets/images/messenger.png
+    - assets/images/comente.png
+    - assets/images/enviar.png
+    - assets/images/home.png
+    - assets/images/search.png
+    - assets/images/add.png
+    - assets/images/reels.png
+    - assets/images/perfil.jpg
+    - assets/images/favourite.png
+    - assets/images/news.jpeg
 
 
 

@@ -9,3 +9,5 @@ final kTextContainer = BoxDecoration(
     borderRadius: BorderRadius.circular(2),
     color: Colors.pink,
     gradient: LinearGradient(colors: [Colors.red, Colors.pink]));
+
+final kNameStyle = TextStyle(color: Colors.white, fontSize: 12);
